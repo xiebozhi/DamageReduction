@@ -4,3 +4,12 @@
 *.jar
 *.war
 *.ear
+*.xml
+*.properties
+*.mf
+/DamageReduction/nbproject/private/
+/dist/
+/DamageReduction/lib/
+/DamageReduction/nbproject/
+/lib/
+/nbproject/

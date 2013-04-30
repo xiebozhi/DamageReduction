@@ -1,0 +1,19 @@
+name: DamageReduction
+main: com.teamglokk.damagereduction.DamageReduction
+version: Alpha 0.01
+authors: [BobbShields]
+commands: 
+    dr-reload:
+        description: Reloads the plugin
+        aliases: []
+        usage: /dr-reload
+permissions:
+    damagereduction.*:
+        description: Gives access to all DamageReduction permissions
+        default: false
+        children:
+            damagereduction.chain: true
+    damagereduction.chain:
+        description: Allows the player to use DR on chainmail
+        default: false
+        children: []
